@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="wall_02_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="get" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\get.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="explode_01_04_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_04_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_01_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_01_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_02_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_02_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\appear.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wall_01_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_01_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_01_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\button\btn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_04_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_04_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_14.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_07.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_left_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_left_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_07.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_up_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_up_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die_01_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\die\die_01_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_09.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_06_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_06_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_00_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_00_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_up_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_up_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_04_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_04_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_down_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_down_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_01_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_01_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_07.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_04_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_04_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_03_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_03_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_up_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_up_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\bg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="big_wall_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_14.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_07_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_07_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_01_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_01_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_04_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_04_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="draw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\draw.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="big_wall_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_05.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_left_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_left_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_down_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_down_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\die.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="brick_07_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_07_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_08.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\start.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wall_01_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_07.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\lay.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="explode_01_03_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_03_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomb_1_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\bomb\bomb-1_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\background\start.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_up_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_up_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_left_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_left_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_stand_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_stand_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die_01_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\die\die_01_08.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_down_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_down_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_right_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_right_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\save.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="explode_01_00_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_00_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_09.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_03_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_03_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_stand_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_stand_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_14.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_04_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_04_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bombBuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\prop\bombBuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_02_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_02_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_left_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_left_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_03_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_03_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\button\btn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_stand_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_stand_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomb_1_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\bomb\bomb-1_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_00_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_00_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die_01_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\die\die_01_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_05_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_05_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_08.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spidBuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\prop\spidBuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_right_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_right_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_07.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_03_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_03_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_03_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_03_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_05.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_stand_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_stand_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_15.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_right_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_right_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_05.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die_01_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\die\die_01_07.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_08.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_08.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_08_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_08_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_right_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_right_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomb_1_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\bomb\bomb-1_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die_01_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\die\die_01_05.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="win" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\win.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="big_wall_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_05.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_02_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_02_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\background\btn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_09.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_10_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_10_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_09.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_05_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_05_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_10_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_10_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_07.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_02_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_02_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_09.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\sound\explode.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="monster_02_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_06_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_06_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die_01_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\die\die_01_06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_09.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_15.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_05.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_08_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_08_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_08.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawn_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\lawn\lawn_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die_01_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\die\die_01_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_03_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_03_09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_02_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_02_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_05.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die_01_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\die\die_01_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_10_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_10_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brick_01_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\brick\brick_01_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="big_wall_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\big_wall_12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerBuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\prop\powerBuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\background\BG.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_1_down_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\character\character_1_down_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_02_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_02_06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_02_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_02_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_01_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\wall\wall_01_08.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_10_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_10_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_01_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_01_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_01_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\monster\monster_01_03.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explode_01_02_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\image\explode\explode_01_02_02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resource\button\btn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

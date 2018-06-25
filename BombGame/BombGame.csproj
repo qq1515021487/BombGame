@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BFEB6C1-3B76-4055-B361-4E5350453035}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BombGame</RootNamespace>
+    <AssemblyName>BombGame</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="microsoft.directx.directsound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\microsoft.directx.directsound.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="assemble\Bomb.cs" />
+    <Compile Include="assemble\Explode.cs" />
+    <Compile Include="assemble\GameMap.cs" />
+    <Compile Include="assemble\Monster.cs" />
+    <Compile Include="assemble\Player.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WavPlayer.cs" />
+    <Compile Include="RunningGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunningGame.Designer.cs">
+      <DependentUpon>RunningGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RunningGame.resx">
+      <DependentUpon>RunningGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\sound\win.wav" />
+    <None Include="resource\sound\start.wav" />
+    <None Include="resource\sound\save.wav" />
+    <None Include="resource\sound\lay.wav" />
+    <None Include="resource\sound\get.wav" />
+    <None Include="resource\sound\explode.wav" />
+    <None Include="resource\sound\draw.wav" />
+    <None Include="resource\sound\die.wav" />
+    <None Include="resource\sound\bg.wav" />
+    <None Include="resource\sound\appear.wav" />
+    <None Include="resource\image\wall\wall_02_15.gif" />
+    <None Include="resource\image\wall\wall_02_14.gif" />
+    <None Include="resource\image\wall\wall_02_13.gif" />
+    <None Include="resource\image\wall\wall_02_12.gif" />
+    <None Include="resource\image\wall\wall_02_11.gif" />
+    <None Include="resource\image\wall\wall_02_10.gif" />
+    <None Include="resource\image\wall\wall_02_09.gif" />
+    <None Include="resource\image\wall\wall_02_08.gif" />
+    <None Include="resource\image\wall\wall_02_07.gif" />
+    <None Include="resource\image\wall\wall_02_06.gif" />
+    <None Include="resource\image\wall\wall_02_05.gif" />
+    <None Include="resource\image\wall\wall_02_04.gif" />
+    <None Include="resource\image\wall\wall_02_03.gif" />
+    <None Include="resource\image\wall\wall_02_02.gif" />
+    <None Include="resource\image\wall\wall_02_01.gif" />
+    <None Include="resource\image\wall\wall_01_15.gif" />
+    <None Include="resource\image\wall\wall_01_14.gif" />
+    <None Include="resource\image\wall\wall_01_13.gif" />
+    <None Include="resource\image\wall\wall_01_12.gif" />
+    <None Include="resource\image\wall\wall_01_11.gif" />
+    <None Include="resource\image\wall\wall_01_10.gif" />
+    <None Include="resource\image\wall\wall_01_09.gif" />
+    <None Include="resource\image\wall\wall_01_08.gif" />
+    <None Include="resource\image\wall\wall_01_07.gif" />
+    <None Include="resource\image\wall\wall_01_06.gif" />
+    <None Include="resource\image\wall\wall_01_05.gif" />
+    <None Include="resource\image\wall\wall_01_04.gif" />
+    <None Include="resource\image\wall\wall_01_03.gif" />
+    <None Include="resource\image\wall\wall_01_02.gif" />
+    <None Include="resource\image\wall\wall_01_01.gif" />
+    <None Include="resource\image\wall\big_wall_14.gif" />
+    <None Include="resource\image\wall\big_wall_13.gif" />
+    <None Include="resource\image\wall\big_wall_12.gif" />
+    <None Include="resource\image\wall\big_wall_11.gif" />
+    <None Include="resource\image\wall\big_wall_10.gif" />
+    <None Include="resource\image\wall\big_wall_09.gif" />
+    <None Include="resource\image\wall\big_wall_08.gif" />
+    <None Include="resource\image\wall\big_wall_07.gif" />
+    <None Include="resource\image\wall\big_wall_06.gif" />
+    <None Include="resource\image\wall\big_wall_05.gif" />
+    <None Include="resource\image\wall\big_wall_04.gif" />
+    <None Include="resource\image\wall\big_wall_03.gif" />
+    <None Include="resource\image\wall\big_wall_02.gif" />
+    <None Include="resource\image\wall\big_wall_01.gif" />
+    <None Include="resource\image\prop\spidBuff.png" />
+    <None Include="resource\image\prop\powerBuff.png" />
+    <None Include="resource\image\prop\bombBuff.png" />
+    <None Include="resource\image\monster\monster_03_11.png" />
+    <None Include="resource\image\monster\monster_03_10.png" />
+    <None Include="resource\image\monster\monster_03_09.png" />
+    <None Include="resource\image\monster\monster_03_08.png" />
+    <None Include="resource\image\monster\monster_03_07.png" />
+    <None Include="resource\image\monster\monster_03_06.png" />
+    <None Include="resource\image\monster\monster_03_05.png" />
+    <None Include="resource\image\monster\monster_03_04.png" />
+    <None Include="resource\image\monster\monster_03_03.png" />
+    <None Include="resource\image\monster\monster_03_02.png" />
+    <None Include="resource\image\monster\monster_03_01.png" />
+    <None Include="resource\image\monster\monster_02_11.gif" />
+    <None Include="resource\image\monster\monster_02_10.gif" />
+    <None Include="resource\image\monster\monster_02_09.gif" />
+    <None Include="resource\image\monster\monster_02_08.gif" />
+    <None Include="resource\image\monster\monster_02_07.gif" />
+    <None Include="resource\image\monster\monster_02_06.gif" />
+    <None Include="resource\image\monster\monster_02_05.gif" />
+    <None Include="resource\image\monster\monster_02_04.gif" />
+    <None Include="resource\image\monster\monster_02_03.gif" />
+    <None Include="resource\image\monster\monster_02_02.gif" />
+    <None Include="resource\image\monster\monster_02_01.gif" />
+    <None Include="resource\image\monster\monster_01_11.gif" />
+    <None Include="resource\image\monster\monster_01_10.gif" />
+    <None Include="resource\image\monster\monster_01_09.gif" />
+    <None Include="resource\image\monster\monster_01_08.gif" />
+    <None Include="resource\image\monster\monster_01_07.gif" />
+    <None Include="resource\image\monster\monster_01_06.gif" />
+    <None Include="resource\image\monster\monster_01_05.gif" />
+    <None Include="resource\image\monster\monster_01_04.gif" />
+    <None Include="resource\image\monster\monster_01_03.gif" />
+    <None Include="resource\image\monster\monster_01_02.gif" />
+    <None Include="resource\image\monster\monster_01_01.gif" />
+    <None Include="resource\image\lawn\lawn_09.gif" />
+    <None Include="resource\image\lawn\lawn_08.gif" />
+    <None Include="resource\image\lawn\lawn_07.gif" />
+    <None Include="resource\image\lawn\lawn_06.gif" />
+    <None Include="resource\image\lawn\lawn_05.gif" />
+    <None Include="resource\image\lawn\lawn_04.gif" />
+    <None Include="resource\image\lawn\lawn_03.gif" />
+    <None Include="resource\image\lawn\lawn_02.gif" />
+    <None Include="resource\image\lawn\lawn_01.gif" />
+    <None Include="resource\image\explode\explode_10_04.gif" />
+    <None Include="resource\image\explode\explode_10_03.gif" />
+    <None Include="resource\image\explode\explode_10_02.gif" />
+    <None Include="resource\image\explode\explode_10_01.gif" />
+    <None Include="resource\image\explode\explode_01_04_04.gif" />
+    <None Include="resource\image\explode\explode_01_04_03.gif" />
+    <None Include="resource\image\explode\explode_01_04_02.gif" />
+    <None Include="resource\image\explode\explode_01_04_01.gif" />
+    <None Include="resource\image\explode\explode_01_03_04.gif" />
+    <None Include="resource\image\explode\explode_01_03_03.gif" />
+    <None Include="resource\image\explode\explode_01_03_02.gif" />
+    <None Include="resource\image\explode\explode_01_03_01.gif" />
+    <None Include="resource\image\explode\explode_01_02_04.gif" />
+    <None Include="resource\image\explode\explode_01_02_03.gif" />
+    <None Include="resource\image\explode\explode_01_02_02.gif" />
+    <None Include="resource\image\explode\explode_01_02_01.gif" />
+    <None Include="resource\image\explode\explode_01_01_04.gif" />
+    <None Include="resource\image\explode\explode_01_01_03.gif" />
+    <None Include="resource\image\explode\explode_01_01_02.gif" />
+    <None Include="resource\image\explode\explode_01_01_01.gif" />
+    <None Include="resource\image\explode\explode_01_00_03.gif" />
+    <None Include="resource\image\explode\explode_01_00_02.gif" />
+    <None Include="resource\image\explode\explode_01_00_01.gif" />
+    <None Include="resource\image\die\die_01_08.gif" />
+    <None Include="resource\image\die\die_01_07.gif" />
+    <None Include="resource\image\die\die_01_06.gif" />
+    <None Include="resource\image\die\die_01_05.gif" />
+    <None Include="resource\image\die\die_01_04.gif" />
+    <None Include="resource\image\die\die_01_03.gif" />
+    <None Include="resource\image\die\die_01_02.gif" />
+    <None Include="resource\image\die\die_01_01.gif" />
+    <None Include="resource\image\character\character_stand_04.gif" />
+    <None Include="resource\image\character\character_stand_03.gif" />
+    <None Include="resource\image\character\character_stand_02.gif" />
+    <None Include="resource\image\character\character_stand_01.gif" />
+    <None Include="resource\image\character\character_1_up_04.gif" />
+    <None Include="resource\image\character\character_1_up_03.gif" />
+    <None Include="resource\image\character\character_1_up_02.gif" />
+    <None Include="resource\image\character\character_1_up_01.gif" />
+    <None Include="resource\image\character\character_1_right_04.gif" />
+    <None Include="resource\image\character\character_1_right_03.gif" />
+    <None Include="resource\image\character\character_1_right_02.gif" />
+    <None Include="resource\image\character\character_1_right_01.gif" />
+    <None Include="resource\image\character\character_1_left_04.gif" />
+    <None Include="resource\image\character\character_1_left_03.gif" />
+    <None Include="resource\image\character\character_1_left_02.gif" />
+    <None Include="resource\image\character\character_1_left_01.gif" />
+    <None Include="resource\image\character\character_1_down_04.gif" />
+    <None Include="resource\image\character\character_1_down_03.gif" />
+    <None Include="resource\image\character\character_1_down_02.gif" />
+    <None Include="resource\image\character\character_1_down_01.gif" />
+    <None Include="resource\image\brick\brick_08_02.gif" />
+    <None Include="resource\image\brick\brick_08_01.gif" />
+    <None Include="resource\image\brick\brick_07_02.gif" />
+    <None Include="resource\image\brick\brick_07_01.gif" />
+    <None Include="resource\image\brick\brick_06_02.gif" />
+    <None Include="resource\image\brick\brick_06_01.gif" />
+    <None Include="resource\image\brick\brick_05_02.gif" />
+    <None Include="resource\image\brick\brick_05_01.gif" />
+    <None Include="resource\image\brick\brick_04_02.gif" />
+    <None Include="resource\image\brick\brick_04_01.gif" />
+    <None Include="resource\image\brick\brick_03_02.gif" />
+    <None Include="resource\image\brick\brick_03_01.gif" />
+    <None Include="resource\image\brick\brick_03.gif" />
+    <None Include="resource\image\brick\brick_02_02.gif" />
+    <None Include="resource\image\brick\brick_02_01.gif" />
+    <None Include="resource\image\brick\brick_02.gif" />
+    <None Include="resource\image\brick\brick_01_02.gif" />
+    <None Include="resource\image\brick\brick_01_01.gif" />
+    <None Include="resource\image\bomb\bomb-1_03.gif" />
+    <None Include="resource\image\bomb\bomb-1_02.gif" />
+    <None Include="resource\image\bomb\bomb-1_01.gif" />
+    <None Include="resource\image\background\BG.bmp" />
+    <None Include="resource\image\background\start.jpg" />
+    <None Include="resource\image\background\btn1.png" />
+    <None Include="Resources\resource.bmp" />
+    <None Include="Resources\resource.txt" />
+    <None Include="resource\button\btn1.png" />
+    <None Include="resource\button\btn2.png" />
+    <Content Include="resource\image\bomb\bomb-1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="DXTMSFTLib">
+      <Guid>{5E77EB03-937C-11D1-B047-00AA003B6061}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="DXTRANSLib">
+      <Guid>{54314D1D-35FE-11D1-81A1-0000F87557DB}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
